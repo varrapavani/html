@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      main {
+        width: 400px;
+        margin: auto;
+      }
+      #s1 > * {
+        margin-bottom: 20px;
+      }
+      #s1 {
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid gainsboro;
+        /* background-color: aqua; */
+      }
+
+      #product-overview > * {
+        margin-bottom: 14px;
+      }
+
+      p > span {
+        font-size: 24px;
+        font-weight: 900;
+        color: rgba(0, 0, 0, 0.7);
+        padding-right: 4px;
+      }
+      #product-photo {
+        padding: 5px 20px;
+        width: 336px;
+        height: 300px;
+      }
+      figure > a > img {
+        width: 90px;
+        height: 90px;
+      }
+
+      #rating {
+        color: white;
+        border: 2px solid rgba(4, 154, 4, 1);
+        background-color: rgba(4, 154, 4, 1);
+        border-radius: 20px;
+        padding: 3px 20px;
+      }
+      /* #similar-products {
+        margin-top: 10px;
+      } */
+      #sizes {
+        display: inline-block;
+        background-color: rgba(216, 213, 213, 0.058);
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        padding: 14px;
+      }
+      #sizes > div {
+        float: left;
+        margin: 10px 10px;
+        font-size: 30px;
+        border-radius: 50px;
+        padding: 10px 20px;
+        background-color: rgba(229, 235, 233, 0.874);
+      }
+
+      h3 {
+        margin-bottom: 14px;
+      }
+      #order-button {
+        display: block;
+        text-decoration: none;
+        font-size: 24px;
+        border: 1px solid rgb(159, 32, 137);
+        border-radius: 5px;
+        background-color: rgb(159, 32, 137);
+       text-align: center;
+       padding: 10px;
+        color: white;
+        margin-bottom: 0;
+      }
+      #details {
+        display: inline-block;
+        background-color: rgba(216, 213, 213, 0.058);
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        padding: 14px;
+      }
+
+    </style>
+    <title>Product Card</title>
+  </head>
+  <body>
+    <main>
+      <section id="s1">
+        <img
+          src="https://images.meesho.com/images/products/381044869/y1ic9_512.webp"
+          alt="product"
+          id="product-photo"
+        />
+
+        <div id="product-overview">
+          <h3>
+            SWIFTLY Women's Pure Cotton Mickkey Mouse Print Round Neck Full
+            Sleeve Tshirt
+          </h3>
+          <p><span>₹ 206</span>onwards</p>
+          <p><span id="rating"> 4.1 ★</span>1881 Ratings, &nbsp;574 Reviews</p>
+          <p>Free Delivery</p>
+          <div id="similar-products">
+            <h3>4 Similar products</h3>
+            <figure>
+              <a href="#"
+                ><img
+                  src="https://images.meesho.com/images/products/381044869/y1ic9_512.webp"
+                  alt="marron-red"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://images.meesho.com/images/products/381044870/yqfq5_512.webp"
+                  alt="blue"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://images.meesho.com/images/products/381044872/zcydl_512.webp"
+                  alt="pink"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://images.meesho.com/images/products/381044871/a6wki_512.webp"
+                  alt="black"
+              /></a>
+            </figure>
+          </div>
+        </div>
+
+        <div id="sizes">
+          <h3>Select Size</h3>
+          <div>S</div>
+          <div>L</div>
+          <div>M</div>
+          <div>XL</div>
+        </div>
+        <div id="details">
+          <h3>Product of details</h3>
+          <p>
+            Name : SWIFTLY Women's Pure Cotton Mickkey Mouse Print Round Neck
+            Full Sleeve Tshirt
+          </p>
+          <p>Fabric : Cotton</p>
+          <p>Sleeve Length : Long Sleeves</p>
+          <p>Pattern : Printed</p>
+          <p>Net Quantity (N) : 1</p>
+          <p>Sizes :</p>
+          <p>S(Bust Size : 36 in, Length Size: 25 in)</p>
+          <p>M (Bust Size : 38 in, Length Size: 25 in)</p>
+          <p>L (Bust Size : 40 in, Length Size: 26 in)</p>
+          <p>XL (Bust Size : 42 in, Length Size: 26 in)</p>
+          <p>XXL (Bust Size : 44 in, Length Size: 27 in)</p>
+          <p>Country of Origin : India</p>
+        </div>
+        <a href="#" id="order-button">BUY NOW</a>
+      </section>
+    </main>
+  </body>
+</html>
